@@ -1,0 +1,32 @@
+html,body{
+    height:100%;
+  }
+
+  aside#left{
+    float:left; 
+    width:15%; 
+    height:70%;
+  }
+  section{
+    float:left;
+    width:60%;
+    height:70%;
+  }
+  aside#right{
+    float:right;
+    width:22%;
+    height:70%;
+  }
+  footer{
+    clear:both;
+  }
+  h1 {
+
+    
+.cormorant-garamond-<uniquifier> {
+  font-family: "Cormorant Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+  }
