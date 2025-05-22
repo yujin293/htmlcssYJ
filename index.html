@@ -8,25 +8,30 @@
    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Poetsen+One&display=swap" rel="stylesheet">
+
+
+
+
 </head>
 <body>
     <header>
-    <h1><a href="#">Vegi Shop</a></h1>
+    <h1><a href="index.html">Vegi Shop</a></h1>
     </header>
     
-    <nav>
-    <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">My Acount</a></li>
-        <li><a href="#">Contacts</a></li>
+   <nav>
+    <ul class="main">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Best</a></li>
+        <li><a href="#">My Page</a></li>
+        <li><a href="cart.html" target="iframe1"> Cart</a></li>
+        <li><a href="signin.html" target="iframe1">Sign in</a></li>
+        <li><a href="signout.html" target="iframe1">Sign Out</a></li>
     </ul>
    </nav>
 
    <aside id="left">
     <h4>카테고리</h4>
-    <ul>
+    <ul class="sidemenu">
         <li><a href="apple.html" target="iframe1">사과</a></li>
         <li><a href="orange.html" target="iframe1">오렌지</a></li>
         <li><a href="banana.html" target="iframe1">바나나</a></li>
@@ -36,36 +41,36 @@
   </aside>
 
    <section>
-    <iframe name="iframe1" src="main.html" width="530" height="300">
+    <iframe name="iframe1" src="main.html" width="100%" height="100%" style="border:0px;">
     </iframe>
    </section>
 
 
    <aside id="right">
-    <h4>Shopping Cart</h4>
-    <div>현재 쇼핑카트에 물품이 없습니다.</div>
-    <a href="#">쇼핑카트 보기</a>
-
-    <h4>Log in</h4>
-    <form action="#" method="get">
-    아이디
-    <input type="text">
-    <br>
-    패스워드
-    <input type="password"><br>
-    <input type="submit" value="로그인">
-    <input type="reset" value="초기화">
-    </form>
+    <h3>광&nbsp;&nbsp;고 </h3>
+    <p>땅에서 식탁까지, 신선함 그대로!</p> 
+    <p>가장 가까운 농장에서 바로</p>
+    <p>당신의 집으로!</p>
+    <div style="text-align:center;">
+        <img src="delivery.jpg" width="80%" id="a">
+        <img src="farm.jpg" width="80%" id="b">
+    </div>
+    <p>오늘 수확한 신선한</p>
+    <p>야채와 채소를 매일 바로</p>
+    <p>배달해 드립니다.</p>
     </aside>
-
+   
     <footer>
      <ul>
-        <li><a href="#">공지사황</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">공지사항</a></li>
         <li><a href="#">개인정보처리방침</a></li>
         <li><a href="#">인재채용</a></li>
-        <li><a href="#">저작권방침</a></li>
+        <li><a href="#">저작권방침</a> 
+        </li>
      </ul>
     </footer>
 
 </body>
 </html>
+
